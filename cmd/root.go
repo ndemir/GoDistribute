@@ -6,8 +6,8 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "godistribute",
-	Short: "GoDistribute: A Distributed Task Scheduler",
-	Long:  `GoDistribute is a simple CLI tool that can act as a distributed task scheduler which allows you to manage and execute tasks across multiple nodes via SSH.`,
+	Short: "GoDistribute: A CLI for Distributed Task Execution",
+	Long:  `GoDistribute is a CLI tool for running distributed tasks across multiple nodes. It simplifies server setup and task execution using SSH and Podman-based containerization.`,
 	Example: `
 	# Setup Nodes
 	GoDistribute setup --config servers.yaml
